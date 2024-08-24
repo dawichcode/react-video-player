@@ -1,7 +1,6 @@
 {
-  "name": "videoplayer",
-  "private": false,
-  "version": "0.0.0",
+  "name": "gc-video-player",
+  "version": "0.0.1",
   "type": "module",
   "repository": {
     "url": "https://github.com/dawichcode/react-video-player.git"
@@ -16,7 +15,7 @@
 
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:esm && npm run build:cjs && npm pack && npm publish && npm version patch",
+    "build": "npm run build:esm && npm run build:cjs && npm pack  && npm publish && npm version patch",
     "build:esm": "tsc -b",
     "build:cjs": "tsc --module CommonJs --outDir dist/cjs",
     "lint": "eslint .",
