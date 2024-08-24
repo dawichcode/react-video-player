@@ -1,15 +1,3 @@
-# react-video-player
-**A smart react customized video player**
-
-``Useage``
-+ Like the html video tag
-
-***
-
-***
-eg
-
-```jsx
 import VideoPlayer from "./components/VideoPlayer.tsx";
 import {Poster, Video} from "./assets";
 
@@ -25,8 +13,3 @@ function App() {
 }
 
 export default App
-
-```
-
-
-***Happy hacking***
