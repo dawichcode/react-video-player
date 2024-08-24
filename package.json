@@ -1,6 +1,6 @@
 {
   "name": "gc-video-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "repository": {
     "url": "https://github.com/dawichcode/react-video-player.git"
@@ -12,7 +12,6 @@
   ],
   "author": "Samuel Clinton",
   "email": "samuelclinton975@gmail.com",
-
   "scripts": {
     "dev": "vite",
     "build": "npm run build:esm && npm run build:cjs && npm pack  && npm publish && npm version patch",
