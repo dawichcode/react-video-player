@@ -1,6 +1,6 @@
-import VideoPlayer from "./components/VideoPlayer.tsx";
-import Controls from "./components/Controls.tsx";
-import ProgressBar from "./components/ProgressBar.tsx";
-import TimingDisplay from "./components/TimingDisplay.tsx";
-import VolumeControl from "./components/VolumeControl.tsx";
-export  {VideoPlayer,Controls,ProgressBar,TimingDisplay,VolumeControl};
+import VideoPlayer from "./components/VideoPlayer";
+import Controls from "./components/Controls";
+import ProgressBar from "./components/ProgressBar";
+import TimingDisplay from "./components/TimingDisplay";
+import VolumeControl from "./components/VolumeControl";
+export { VideoPlayer, Controls, ProgressBar, TimingDisplay, VolumeControl };
