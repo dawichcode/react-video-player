@@ -1,6 +1,6 @@
 {
   "name": "gc-video-player",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "url": "https://github.com/dawichcode/react-video-player.git"
   },
@@ -41,6 +41,5 @@
     "vite": "^5.4.0",
     "@types/node": "^20.11.3",
     "react-dom": "^18.2.0"
-
   }
 }
