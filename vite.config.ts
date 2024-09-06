@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/main.tsx'),
+      entry: path.resolve(__dirname, 'src/index.tsx'),
       name: 'gc-video-player',
       fileName: (format) => `gc-video-player.${format}.js`,
     },
