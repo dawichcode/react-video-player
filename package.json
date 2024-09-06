@@ -13,7 +13,8 @@
   "email": "samuelclinton975@gmail.com",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs && npm pack && npm publish && npm version patch",
+    "build": "rm -rf dist/ && prettier --write src/ && vite build && npm pack && npm publish && npm version patch",
+    "build-ts": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs && npm pack && npm publish && npm version patch",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJs --outDir dist/cjs",
     "lint": "eslint .",
