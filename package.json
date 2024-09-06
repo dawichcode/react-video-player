@@ -1,11 +1,12 @@
 {
   "name": "gc-video-player",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/dawichcode/react-video-player.git"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/gc-video-player.umd.js",
+  "module": "dist/gc-video-player.es.js",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
