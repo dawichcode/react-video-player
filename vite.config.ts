@@ -20,6 +20,6 @@ export default defineConfig({
         },
       },
     },
-    cssCodeSplit: true, // This will create a separate CSS file
+   // cssCodeSplit: true, // This will create a separate CSS file
   },
 });
